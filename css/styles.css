@@ -15,7 +15,7 @@
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
-  --bs-red: #dc3545;
+  --bs-red: #f17985;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
@@ -273,7 +273,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #f2b3d2;
   word-wrap: break-word;
 }
 a > code {
@@ -362,7 +362,7 @@ select {
   padding: 5px, 20px;
   border-radius: 15px;
   background-color: #0c4128;
-  color: yellow;
+  color: rgb(236, 236, 114);
   border: solid;
   cursor: pointer;
 }
@@ -7837,7 +7837,7 @@ textarea.form-control-lg {
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-danger {
